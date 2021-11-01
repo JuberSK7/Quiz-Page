@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(154, 172, 172);
+
+}
+.inner{
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+.inner h2 .question{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 1rem 0 4rem 0;
+}
+.inner li{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+#submit, .btn{
+    padding: 1rem;
+    outline: none;
+    font-size: 2rem;
+    font-size: 400;
+    display: block;
+    border: 2px #203121;
+    border-radius: 4px;
+    margin: auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #43A047;
+    margin-top: 4rem;
+
+}
+#submit:hover{
+ 
+background-color:rgb(27, 129, 27);
+  
+}
+#showMark{
+    background-color:#edf2f5;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+.Marks{
+    display: none;
+}
+#showMark h3{
+    font-size: 3rem;
+    text-align: center;
+
+}
+#showMark .btn{
+    margin-top: 2rem;
+    background-color: #FFEB3B;
+    color: #3E2723;
+    cursor: pointer;
+}
+#showMark .btn:hover{
+    background-color: #FDD835;
+    color: #FF5722
+}
+
+
+
+@media (max-width:500px){
+    .inner-div{
+        width: 80vw;
+        padding: 1rem 4rem;
+    }
+}
